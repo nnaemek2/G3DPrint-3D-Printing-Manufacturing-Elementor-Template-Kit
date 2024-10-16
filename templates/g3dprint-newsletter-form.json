@@ -1,0 +1,137 @@
+{
+    "version": "0.4",
+    "title": "G3Dprint &#8211; Newsletter Form",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-contact",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "6338c735",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "column": "",
+                    "row": "",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": null
+                },
+                "content_width": "full"
+            },
+            "elements": [
+                {
+                    "id": "5e90560e",
+                    "settings": {
+                        "content_width": "full",
+                        "label_text": "Email",
+                        "name_input": "rform-email",
+                        "placeholder_input": "Subscribe now to receive special promotions",
+                        "warning_message": "This field is required",
+                        "show_label": "",
+                        "_element_width": "initial",
+                        "input_padding": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "30",
+                            "bottom": "12",
+                            "left": "30",
+                            "isLinked": false
+                        },
+                        "input_border_radius": {
+                            "unit": "px",
+                            "top": "35",
+                            "right": "35",
+                            "bottom": "35",
+                            "left": "35",
+                            "isLinked": true
+                        },
+                        "input_background_normal_background": "classic",
+                        "input_border_normal_border": "solid",
+                        "input_border_normal_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_hover_background": "classic",
+                        "input_border_hover_border": "solid",
+                        "input_border_hover_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "input_background_focus_background": "classic",
+                        "input_border_focus_border": "solid",
+                        "input_border_focus_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 88,
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "input_typography_typography": "globals\/typography?id=65aa791",
+                            "input_color_normal": "globals\/colors?id=primary",
+                            "input_background_normal_color": "globals\/colors?id=f6ce02f",
+                            "input_border_normal_color": "globals\/colors?id=primary",
+                            "input_color_hover": "globals\/colors?id=primary",
+                            "input_background_hover_color": "globals\/colors?id=f6ce02f",
+                            "input_border_hover_color": "globals\/colors?id=primary",
+                            "input_color_focus": "globals\/colors?id=primary",
+                            "input_background_focus_color": "globals\/colors?id=f6ce02f",
+                            "input_border_focus_color": "globals\/colors?id=primary",
+                            "placeholder_color": "globals\/colors?id=text",
+                            "placeholder_typography_typography": "globals\/typography?id=65aa791",
+                            "warning_color": "globals\/colors?id=d79e5ec",
+                            "warning_typography_typography": "globals\/typography?id=c9c78d0"
+                        },
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "email",
+                    "elType": "widget"
+                },
+                {
+                    "id": "5511afc0",
+                    "settings": {
+                        "content_width": "full",
+                        "button_text": "Subscribe",
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 13,
+                            "sizes": []
+                        },
+                        "btn_fullwidth": "yes",
+                        "_element_width_mobile": "inherit"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "rform_button_submit",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}
